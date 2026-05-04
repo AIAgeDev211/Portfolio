@@ -17,6 +17,8 @@ import { RagTrace } from "./rag-trace";
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
 
+  console.log("Hero section initialized");
+
   useEffect(() => {
     const el = sectionRef.current;
     if (!el) return;

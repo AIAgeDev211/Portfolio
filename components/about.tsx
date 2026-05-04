@@ -95,8 +95,7 @@ export function About() {
               ease: "easeOut"
             }}
             className="relative overflow-hidden rounded-3xl border border-border md:col-span-2"
-          >
-            
+          >            
             <div className="relative aspect-[16/9] w-full md:aspect-auto md:h-full">
               <Image
                 src={g.src}
@@ -136,6 +135,7 @@ export function About() {
           </motion.div>
         ))}
       </div>
+      
     </Section>
   );
 }

@@ -38,6 +38,7 @@ export function Contact() {
                 className="shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
               />
             </a>
+            
             <a
               href={profile.social.linkedin}
               className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-6 py-3 text-sm font-medium text-fg transition-colors hover:border-accent/40"
